@@ -93,7 +93,7 @@ class AddTraining extends Component {
                   <td><select name="customer" value={this.state.customer} onChange={this.handleChange}>{customers}</select><br /></td>
               </tr>
           </table>
-          <p>{this.state.customer}</p>
+       
           <Button style={{marginTop: 10, float: "left"}} onClick={this.saveTraining} variant="outlined"><SaveIcon />SAVE</Button>
         </SkyLight>
         </div>
